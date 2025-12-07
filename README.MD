@@ -1,6 +1,6 @@
 # MoviesLand - Movie Management System
 
-## Project Detailsa
+## Project Details
 - **Authors**: Abhishek Masur Jayatheertha,Ashton Phillips,Harry Joseph,Ilia Mchedlishvilint Project
 - **Course**: CPAN-212-Group Project-Modern Web Development full stackt
 - **Created**: December  06 2025
@@ -13,7 +13,6 @@
 MoviesLand is a comprehensive movie management web application built with Express.js and MongoDB. The project demonstrates full-stack development with user authentication, CRUD operations, access control, and cloud database integration. Features include user registration/login, movie creation/editing with validation, and role-based access restrictions.
 
 ## Quick Access
-
 **Live Application:**
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://moviesland-app-74ea9299f6f8.herokuapp.com/)
 
@@ -22,7 +21,6 @@ MoviesLand is a comprehensive movie management web application built with Expres
 
 *Complete Express.js application with MongoDB integration ready to run*
 
-## Quick Start
 
 ### Prerequisites
 - Node.js (v14 or higher)
