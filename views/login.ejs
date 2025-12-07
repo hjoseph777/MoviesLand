@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <header style="margin-bottom:20px;">
+    <% if (user) { %>
+        <span>Logged in as <%= user.username %></span>
+        <a href="/auth/logout" style="margin-left:15px;">Logout</a>
+    <% } else { %>
+        <a href="/auth/login">Login</a>
+        <a href="/auth/register" style="margin-left:10px;">Register</a>
+    <% } %>
+</header>
+
+<head>
+    <title>Login</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<ul style="color: red;">
+    <% Object.keys(errors).forEach(key => { %>
+        <li><%= errors[key] %></li>
+    <% }) %>
+</ul>
+
+<form action="/auth/login" method="POST">
+
+    <label>Email:</label><br>
+    <input type="email" name="email" value="<%= formData.email %>"><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password"><br><br>
+
+    <button type="submit">Login</button>
+
+</form>
+
+</body>
+</html>
