@@ -22,6 +22,21 @@ MoviesLand is a comprehensive movie management web application built with Expres
 
 *Complete Express.js application with MongoDB integration ready to run*
 
+## 🎬 Testing Walkthrough
+
+Comprehensive automated browser testing demonstrating all application features including authentication, CRUD operations, and access control. All tests performed on the live Heroku deployment with 100% pass rate.
+
+**📹 [View Complete Testing Walkthrough →](WALKTHROUGH.md)**
+
+Features tested:
+- ✅ User authentication (registration, login, logout)
+- ✅ Form validation (empty fields, password length, data ranges)
+- ✅ CRUD operations (create, read, update movies)
+- ✅ Access control (route protection, ownership restrictions)
+- ✅ Database persistence (MongoDB Atlas)
+
+*Complete with video recordings and screenshots of all test scenarios.*
+
 ## Quick Start
 
 ### Prerequisites
